@@ -1,0 +1,45 @@
+{
+  "Name": "Whitelists (lite)",
+  "GlobalProxy": "true",
+  "UseChunkFiles": "true",
+  "RemoteDns": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://8.8.8.8/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://9.9.9.9/dns-query",
+  "DomesticDNSIP": "9.9.9.9",
+  "LastUpdated": "1775710178",
+  "DnsHosts": {},
+  "RouteOrder": "block-proxy-direct",
+  "DirectSites": [
+    "geosite:private",
+    "geosite:category-gov-ru",
+    "geosite:whitelist",
+    "geosite:ip-check",
+    "geosite:vpndetect"
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:whitelist"
+  ],
+  "BlockSites": [
+    "geosite:win-spy",
+    "geosite:torrent",
+    "geosite:category-ads"
+  ],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false",
+  "Geoipurl": "https://cdn.jsdelivr.net/gh/DigneZzZ/routing@main/v2ray/happ/geoip.dat",
+  "Geositeurl": "https://cdn.jsdelivr.net/gh/DigneZzZ/routing@main/v2ray/happ/geosite.dat",
+  "ProxySites": [
+    "geosite:github",
+    "geosite:twitch-ads",
+    "geosite:youtube",
+    "geosite:telegram",
+    "geosite:google-deepmind"
+  ],
+  "ProxyIp": []
+}
